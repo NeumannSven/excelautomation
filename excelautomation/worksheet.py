@@ -9,5 +9,10 @@ import openpyxl
 
 if __name__ == '__main__':
     wb = openpyxl.Workbook()
+    
+    ws = wb['Sheet']
+    ws["A1"] = 123
+
+    
     wb.save('test.xlsx')
     
