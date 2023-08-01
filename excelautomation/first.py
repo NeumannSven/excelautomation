@@ -10,6 +10,3 @@ import openpyxl
 if __name__ == '__main__':
     wb = openpyxl.Workbook()
     print(wb)
-    ws = wb.create_sheet("Meine Tabelle")
-    print(ws)
-    wb.save("test.xlsx")
